@@ -1,0 +1,6 @@
+Comando de invocação: ./generator NúmeroDePedidos(int) TempoMáximoParaCadaPedidoMilisegundos(int)
+
+Saída Padrão: Imprime no ecrã quando os Fifos são abertos, e informações sobre cada pedido mal é criado. Notifica quando estes são adicionadas à fila de pedidos, e quando recebe pedidos diz se foram aceites ou não. Se não forem aceites avisa se(dentro das regras establecidas) vão ser adicionados à queue
+ou irão ser descartados. Antes de terminar imprime uma informação estatística acerca do número de pedidos gerados, pedidos rejeitados recebidos, e pedidos rejeitados ignorados.
+
+Registos: Cria um ficheiro ger.pid em que pid é o identificador do processo, na pasta tmp que contém informações sobre cada pedido(um pedido por linha) e o tempo, em milisegundos, de execução do programa a que aquela informação diz respeito. 

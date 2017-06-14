@@ -1,0 +1,5 @@
+Comando de Invocação: ./sauna TamanhoDaSauna(inteiro)
+
+Saída Padrão: Mostra no ecrã, informações sobre a capacidade da sauna e quando abre os Fifos. Mostra ainda informações do pedido mal o recebe, e se este foi aceite ou não. Quer tenha sido aceite ou não, mostra o género currente na sauna e o seu número de lugares vazios, para fácil identificação sobre a razão de ter sido aceite ou não. Antes de fechar imprime informações estatísticas sobre o número de pedidos recebidos, aceites e recusados(total e por género).
+
+Registos: Cria um ficheiro na pasta tmp com o nome bal.pid em que pid é o identificador do processo, com informações sobre determinados pedidos(um pedido por linha), e o tempo, em milisegundos, de execução do programa a que aquela informação diz respeito. 

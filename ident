@@ -1,0 +1,6 @@
+Fernando André Bezerra Moura Fernandes up201505821
+Bruno Alexandre Oliveira Dias up201504859
+João Miguel Matos Monteiro up201506130 
+
+Na solução desenvolvida, os elementos partilhados tinham o seu lugar na sauna, em sauna.c, e identificavam o género atual da sauna(Feminino, Masculino ou Genérico caso a sauna estivesse vazia a dado momento), e o número de lugares disponíveis da sauna.
+Para resolver os problemas de race condition, foo implementado um Mutex, que era bloqueado antes da modificação dessas variáveis e desbloqueado depois.
